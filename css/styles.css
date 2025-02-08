@@ -1,0 +1,196 @@
+:root {
+    --color-black: #000000;
+    --color-verdeamarillo: rgb(152, 206, 4)
+}
+
+
+
+*::before *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+
+
+
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+
+.barra-home {
+
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-around;
+    margin: 8px 0px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 16px;
+
+
+
+
+
+
+}
+
+.link-home {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    border: 1px solid black;
+    border-radius: 15px;
+    border-style: ridge;
+    flex-wrap: wrap;
+    margin: 6px;
+    font-family: "New Rocker", serif;
+
+    
+
+
+
+    img {
+        border-radius: 10%;
+        width: 70px;
+        height: auto;
+        object-fit: contain;
+        aspect-ratio: 1;
+        flex-wrap: wrap;
+        
+    }
+
+
+   
+    }
+
+    span {
+        font-size: 35px;
+        font-weight: 800;
+        padding: 6px;
+        flex-wrap: wrap;
+       
+
+    }
+
+
+.link-home:hover {
+    background-color: var(--color-verdeamarillo);
+    border-width: 5px;
+}
+
+
+.cuerpo1 {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin: 10px 0px;
+    border-style: ridge;
+    flex-wrap: wrap;
+    font-family: "New Rocker", serif;
+    font-size: 35px;
+
+    .new-rocker-regular {
+        font-family: "New Rocker", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+
+
+
+
+    img {
+        border: var(--color-black) solid 3px;
+        border-radius: 10px;
+        width: 180px;
+        height: auto;
+        object-fit: contain;
+        margin: 10px;
+        gap: 0px;
+        flex-wrap: wrap;
+    }
+
+
+
+    .p1 {
+        font-family: "New Rocker", serif;
+        ;
+        font-size: 25px;
+        font-style: oblique;
+        font-weight: 400;
+        margin: 10px;
+    }
+
+}
+
+
+
+.cuerpo2 {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+    background-color: rgba(223, 42, 42, 0.87);
+    border-radius: 10px;
+    border: 3px solid black;
+    margin: 1px 0px;
+    border-style: ridge;
+    flex-wrap: wrap;
+    font-family: "New Rocker", serif;
+    font-size: 30px;
+
+
+
+
+
+}
+
+.integrantes {
+    display: flex;
+    border-radius: 10px;
+    width: 160px;
+    height: auto;
+    object-fit: contain;
+    aspect-ratio: 1;
+    margin: 10px;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 10px;
+
+    img {
+        display: flex;
+        border-radius: 10px;
+        width: 180px;
+        height: auto;
+        object-fit: contain;
+        margin: 10px;
+        gap: 5px;
+        flex-wrap: wrap;
+        border: var(--color-black) solid 5px;
+        align-items: center;
+
+
+
+
+    }
+
+}
